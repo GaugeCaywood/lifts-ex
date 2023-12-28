@@ -5,16 +5,6 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 public class constantsNew {
     BotHardware robot = new BotHardware();
     public static final double LIFT_POWER = 0.50;
-    public static final double OUTTAKEA_OPEN = 0.00; //UPDATE THIS
-    public static final double OUTTAKEB_OPEN = 0.00; //UPDATE THIS
-    public static final double OUTTAKEA_CLOSE = 0.00; //UPDATE THIS
-    public static final double OUTTAKEB_CLOSE = 0.00; //UPDATE THIS
-    public static final double INTAKE_IN = 1.00; //UPDATE THIS
-    public static final double INTAKE_OUT = -1.00; //UPDATE THIS
-    public static final double WRIST_UP = 1.00;
-    public static final double WRIST_MIDDLE = 0.50;
-    public static final double WRIST_DOWN = 0.00;
-    public static double x= 1.0;
     public static double lift = 1;
     public enum MotorStateA {
         LVLA,
